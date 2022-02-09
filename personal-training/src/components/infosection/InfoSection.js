@@ -27,6 +27,7 @@ const InfoSection = ({
   buttonLabel,
   img,
   alt,
+  lightTextDesc
 }) => {
   return (
     <>
@@ -37,12 +38,9 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    // primary
-                    // blackButton
-                    // blackColorHover
+                  <Button       
                     to='home'
                     className='infoSectionButton'
                     smooth={true}

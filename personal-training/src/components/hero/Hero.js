@@ -22,13 +22,13 @@ const Hero = () => {
           <VideoBg src={herovideo} autoPlay loop muted />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Working Out Made Easy</HeroH1>
+          <HeroH1>Personal Training</HeroH1>
           <HeroP>
             Sign up today to recevice 20% your first 5 personal training
             sessions as well as a complimentary fitness evaluation!{' '}
           </HeroP>
           <HeroBtnWrapper>
-            <Button to='signup' >
+            <Button to='signup'>
               Start Today <FaArrowRight className='arrow-icon' />
             </Button>
           </HeroBtnWrapper>

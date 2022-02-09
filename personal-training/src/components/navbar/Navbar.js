@@ -20,7 +20,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavbarLogo to='/'>
-            Personal Training <GiWeightLiftingUp className='icon-logo' />
+            FitForAll <GiWeightLiftingUp className='icon-logo' />
           </NavbarLogo>
           <MobileIcon onClick={toggle}>
             {/* Icon to toggle Sidebar Mobile Version */}
@@ -38,8 +38,8 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='faq'>
-                <span className='nav-link'>FAQ </span>
+              <NavLinks to='facility'>
+                <span className='nav-link'>Facility</span>
               </NavLinks>
             </NavItem>
             <NavItem>
