@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
   height: 800px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +10,7 @@ export const ServicesContainer = styled.div`
   /* background: #010606; */
   @media screen and (max-width: 768px) {
     height: 1400px;
+    margin-top: 24px;
   }
   @media screen and (max-width: 1000px) {
     height: 1400px;
@@ -50,8 +52,9 @@ export const ServicesWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 20px;
+  grid-gap: 50px;
   padding: 50px;
+  width: 100%;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -71,10 +74,11 @@ export const ServicesCard = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  height: 500px;
+  height: 360px;
+  width: 100%;
   margin: 1rem;
 
-  padding: 30px;
+  padding: 60px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   transition: all 0.2s ease-in-out;
 
