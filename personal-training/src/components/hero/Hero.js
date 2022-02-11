@@ -28,7 +28,11 @@ const Hero = () => {
             sessions as well as a complimentary fitness evaluation!{' '}
           </HeroP>
           <HeroBtnWrapper>
-            <Button to='signup'>
+            <Button to='signup' smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-80}>
               Start Today <FaArrowRight className='arrow-icon' />
             </Button>
           </HeroBtnWrapper>

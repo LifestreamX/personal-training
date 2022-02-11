@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
+import { Button, Button2 } from '../ButtonElements';
+import { Link as LinkRouter } from 'react-router-dom';
 import {
   InfoContainer,
   InfoWrapper,
@@ -39,20 +40,10 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-
                 <BtnWrap>
-                    <Button
-                      to='signup'
-                      className='infoSectionButton'
-                      smooth={true}
-                      duration={500}
-                      spy={true}
-                      exact='true'
-                      offset={-80}
-                    >
-                      {buttonLabel}
-                    </Button>
-                  
+                  <LinkRouter to='/signup' className='signup-section-button'>
+                    <Button2>{buttonLabel}</Button2>
+                  </LinkRouter>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

@@ -3,6 +3,36 @@ import { Link as LinkRouter } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
   background: #101522;
+  position: relative;
+  height: 350px;
+`;
+
+export const FooterLogo = styled.div`
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 130px;
+  margin-top: 130px;
+  font-size: 50px;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 20px;
+  }
+`;
+
+export const FooterLogo2 = styled.div`
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 130px;
+  margin-top: 130px;
+  font-size: 50px;
+
+  @media screen and (max-width: 768px) {
+    margin-right: 20px;
+  }
 `;
 
 export const FooterWrap = styled.div`
@@ -22,7 +52,9 @@ export const SocialMedia = styled.div`
 
 export const SocialMediaWrap = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+
   align-items: center;
   max-width: 1100px;
   margin: 40px auto 0 auto;
@@ -40,23 +72,25 @@ export const SocialLogo = styled(LinkRouter)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 46px;
   font-weight: bold;
 `;
 
-export const WebsitesRights = styled.div`
+export const WebsitesRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 `;
 
 export const SocialIcons = styled.div`
-  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 240px;
 `;
 
-export const SocialIconLink = styled.div`
-  font-size: 24px;
+export const SocialIconLink = styled.a`
+  font-size: 36px;
+  margin-top: 16px;
+  color: #fff;
+  cursor: pointer;
 `;

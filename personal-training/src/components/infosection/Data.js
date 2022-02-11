@@ -1,3 +1,4 @@
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -15,24 +16,6 @@ export const homeObjOne = {
   primary: true,
   darkText: false,
 };
-
-// export const homeObjTwo = {
-//   id: 'services',
-//   lightBg: true,
-//   lightText: false,
-//   lightTextDesc: false,
-//   topLine: '1 on 1 training',
-//   headLine: 'Top Tier Trainers ',
-//   description:
-//     'Out Services consist on multiple membership options which will be chosen specifically based off your goals',
-//   buttonLabel: 'Get Started',
-//   imgStart: true,
-//   img: require('../../assets/images/pt2.svg').default,
-//   alt: 'training',
-//   dark: true,
-//   primary: true,
-//   darkText: false,
-// };
 
 export const homeObjThree = {
   id: 'facility',
