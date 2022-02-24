@@ -1,0 +1,38 @@
+{
+	"analytics-uuid": "af181466-5712-403e-a66c-85b9103bac56",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1635866101761
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "109214720408641328242",
+		"email": "warmaneff7@gmail.com",
+		"email_verified": true,
+		"at_hash": "rLMe_efe8X7IEL0RifabCQ",
+		"iat": 1635866117,
+		"exp": 1635869717
+	},
+	"tokens": {
+		"expires_at": 1635869715253,
+		"access_token": "ya29.a0ARrdaM_Vn0k3V7xLpATvOoSOgaY0n6wycxS5AwFLPnLhK-0XMQjexiAWDL4v44gQLjDdvNwCu44t9MJgswnn3f41maAtDwOkXBTocOVpWrJXa1OpFRXd5DI78LeS4K6tIsYBEVXohKSXflUYQXE1cKadlJbEemxbPfN7",
+		"expires_in": 3599,
+		"refresh_token": "1//0d5O9m_BQ65rfCgYIARAAGA0SNwF-L9IrawMXk65s-2ocQlP8Ld9AZ31x6j6BYNKX11MikfO9r2_o3z_n8uWDYHb2nRkHpT8gqic",
+		"scope": "https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1ODI4YzU5Mjg0YTY5YjU0YjI3NDgzZTQ4N2MzYmQ0NmNkMmEyYjMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5MjE0NzIwNDA4NjQxMzI4MjQyIiwiZW1haWwiOiJ3YXJtYW5lZmY3QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoickxNZV9lZmU4WDdJRUwwUmlmYWJDUSIsImlhdCI6MTYzNTg2NjExNywiZXhwIjoxNjM1ODY5NzE3fQ.juqclZZlca_j_wprjXYH39pSAv7bsgSc7zBFCXPcITc91g1u1CxmcdOrKYNfAQ3-omrJTqEIIpRc4kYwIqvmP7MoCyIs67Hjvh22xGUnWbFele7rwLTwCC2NDALLQM6TggLG_dwqHQ2qXx0eX8xT2fcKVrjNjuCbzFYdJ_zUvKDorfmpmWGmpO-OV6l2EuosVnTCl8wFXGfHZ3oopnfeJAe2A7OkItTYeM1fNhTvHA_XGDAV1pSF-ySv4VimRmwcvqexABMGfDSd9G4oSbEP7hoiN9m8NUwlCpwrJ1yuSKLv1lM2jr8aV6wZLx_2IZvYqBJbb_H4mmy_KpGkQWhrsA"
+	},
+	"activeProjects": {
+		"C:\\Users\\tyler\\OneDrive\\Desktop\\projects\\Netflix": "netflix-e33dd"
+	},
+	"lastError": 1635868535848
+}
