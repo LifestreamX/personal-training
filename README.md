@@ -8,7 +8,7 @@ FitForAll
 
 ## About The App
 
-[FitForAll] is a Personal training website advertising its self about its services and facility. this website has multiple pages linking to different parts of information.
+[FitForAll] is a Personal training mobile responsive website advertising its self about its services and facility. this website has multiple pages linking to different parts of information.
 
 ## Screenshots
 
