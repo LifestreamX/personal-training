@@ -12,6 +12,9 @@ FitForAll
 
 ## Screenshots
 
+![](screenshots/home.png)
+
+
 
 
 ## Technologies
