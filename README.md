@@ -12,8 +12,6 @@ FitForAll
 
 ## Screenshots
 
-![](screenshots/home.png)
-![](screenshots/facility%20signup.png)
 
 
 ## Technologies
