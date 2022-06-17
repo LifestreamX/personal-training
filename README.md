@@ -12,7 +12,7 @@ FitForAll
 
 ## Screenshots
 
-![](screenshots/home.png)
+![](screenshots/personal-training.png)
 
 
 
