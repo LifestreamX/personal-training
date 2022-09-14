@@ -9,6 +9,7 @@ export const HeroContainer = styled.div`
   padding: 0 30px;
   position: relative;
   z-index: 1;
+  
 `;
 
 export const HeroBg = styled.div`
@@ -29,7 +30,6 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: #232a34;
   filter: brightness(70%);
-
 `;
 
 export const HeroContent = styled.div`

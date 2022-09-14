@@ -32,6 +32,8 @@ export const InfoRow = styled.div`
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
+
+
 `;
 
 export const Column1 = styled.div`
@@ -96,5 +98,3 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
-
-

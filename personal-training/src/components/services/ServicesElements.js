@@ -16,9 +16,7 @@ export const ServicesContainer = styled.div`
     height: 1400px;
   }
 
-  @media screen and (max-width: 480px) {
-    height: 100px;
-  } ;
+
 `;
 
 export const ServicesH1 = styled.h1`
@@ -28,6 +26,7 @@ export const ServicesH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+
   /* 
   &:after {
     content: '';
@@ -87,7 +86,8 @@ export const ServicesCard = styled.div`
     cursor: pointer;
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 480px) {
+   
   }
 `;
 
