@@ -19,8 +19,13 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
+  
+
+
+
   @media screen and (max-width: 440px) {
     height: 80%;
+    margin-top: 30px;
   } ;
 `;
 
@@ -100,18 +105,10 @@ export const FormButton = styled.button`
   font-size: 20px;
 `;
 
-// export const Text = styled.span`
-//   text-align: center;
-//   margin-top: 24px;
-//   color: #fff;
-//   font-size: 14px;
-// `;
-
 export const Text = styled(LinkRouter)`
   text-align: center;
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-
 `;
