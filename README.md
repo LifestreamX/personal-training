@@ -2,7 +2,7 @@
 
 FitForAll
 
-## Demo link:
+## Demo link: https://fitforall.tyler-allen.com/
 
 <!-- Access my site at [google.com](https://google.com) -->
 
