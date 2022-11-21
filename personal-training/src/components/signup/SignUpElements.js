@@ -11,6 +11,15 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: #aa0108;
+
+  @media screen and (max-width: 480px) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } ;
 `;
 
 export const FormWrap = styled.div`
@@ -18,10 +27,6 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  
-
-
 
   @media screen and (max-width: 440px) {
     height: 80%;
@@ -40,8 +45,9 @@ export const Icon = styled(LinkRouter)`
   font-size: 32px;
 
   @media screen and (max-width: 480px) {
-    margin-left: 16px;
-    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 `;
 
