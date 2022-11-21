@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero />
@@ -30,7 +30,7 @@ const Home = () => {
       <SignupSection {...homeObjFour} />
 
       <Footer />
-    </>
+    </div>
   );
 };
 

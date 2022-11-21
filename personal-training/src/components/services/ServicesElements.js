@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const ServicesContainer = styled.div`
   height: 800px;
   width: 100%;
-  display: flex;
+  background-color: ;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: #010606; */
+
   @media screen and (max-width: 768px) {
     height: 1400px;
     margin-top: 24px;
@@ -15,32 +16,22 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 1325px) {
     height: 1400px;
   }
+
+  @media screen and (max-width: 900px) {
+    height: 1600px;
+  }
 `;
 
 export const ServicesH1 = styled.h1`
   font-size: 3rem;
-  margin-bottom: 8px;
+  position: relative;
+  top: 25px;
+  margin-bottom: 100px;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
-
-  /* 
-  &:after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 5px;
-    background: #aa0108;
-  } */
-
-  /* &:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 5px;
-    background: #aa0108;
-  } */
 `;
 
 export const ServicesWrapper = styled.div`
@@ -48,7 +39,7 @@ export const ServicesWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
   grid-gap: 50px;
   padding: 50px;
   width: 100%;
@@ -111,4 +102,8 @@ export const ServicesP = styled.p`
   font-size: 1.2rem;
   text-align: center;
   padding: 5px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
 `;

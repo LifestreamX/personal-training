@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
 export const FooterLogo = styled.div`
   color: #fff;
   position: absolute;
-  top: 0;
+  top: -40px;
   left: 0;
   margin-left: 130px;
   margin-top: 130px;
@@ -24,7 +24,7 @@ export const FooterLogo = styled.div`
 export const FooterLogo2 = styled.div`
   color: #fff;
   position: absolute;
-  top: 0;
+  top: -40px;
   right: 0;
   margin-right: 130px;
   margin-top: 130px;
